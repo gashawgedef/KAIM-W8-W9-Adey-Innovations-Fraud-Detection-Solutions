@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 
+
 def handle_missing_values(df, strategy="drop", fill_value=None):
     """
     Handle missing values in the dataset.
