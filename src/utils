@@ -1,0 +1,11 @@
+# Placeholder for utility functions (can be expanded as needed)
+import logging
+
+def setup_logging(filename="app.log", level=logging.INFO):
+    logging.basicConfig(filename=filename, level=level, 
+                        format="%(asctime)s - %(levelname)s - %(message)s")
+    return logging.getLogger()
+
+if __name__ == "__main__":
+    logger = setup_logging()
+    logger.info("Utils module initialized.")

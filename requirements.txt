@@ -5,6 +5,11 @@ tensorflow
 mlflow
 seaborn
 matplotlib
+flask
+shap
+lime
+dash
+plotly
 
 
 
